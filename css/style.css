@@ -128,3 +128,40 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+ @media all and (max-width: 480px) {
+    
+
+    .site-header h1{
+        font-size: 2.3rem;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col, .steps .col, .why-us .col{
+        width: 100%;
+    }
+
+    .card{
+        padding: 20px 0px;
+    }
+
+
+}
+
+ @media screen and (max-width: 768px) {
+
+        .container{
+            width: 100%;
+        }
+
+    
+}
+ 
+
+
